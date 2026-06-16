@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jade-h-kim.github.io/seoul-yoga-tea/sitemap.xml

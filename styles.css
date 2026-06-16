@@ -346,6 +346,9 @@ section { padding: clamp(64px, 11vh, 130px) clamp(20px, 5vw, 56px); }
 .venue p { color: rgba(250, 244, 234, 0.82); margin-bottom: 24px; }
 .venue strong { color: var(--paper); font-weight: 600; }
 @media (max-width: 760px) { .venues { grid-template-columns: 1fr; } }
+.contact-links {
+  display: flex; justify-content: center; flex-wrap: wrap; gap: 14px;
+}
 .find-inner {
   max-width: var(--maxw); margin: 0 auto;
   display: grid; grid-template-columns: 1.1fr 0.9fr; gap: clamp(36px, 6vw, 70px);
